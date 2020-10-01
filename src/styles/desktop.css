@@ -1,0 +1,114 @@
+body{
+    max-width: initial;
+}
+/* Header */
+.header{
+    padding: 5% 7%;
+    
+}
+.header > img{
+    position: initial;
+    margin-right: 1px;
+    height: 1.6rem;
+}
+.header img:first-child{
+    display: none;
+}
+.nav{
+    background: none;
+    position: initial;
+    padding: 0;
+    height: initial;
+    justify-content: initial;
+}
+.navbar li a{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin-left: 3rem;
+}
+.navbar li a:hover{
+    border-bottom: 5px solid white;
+    padding-bottom: 10px;
+}
+/* Header */
+
+/* Hero */
+.hero{
+    display: grid;
+    grid-template-columns: 58.33% 41.67%;
+}
+.hero__image-container{
+    height: 100%;
+}
+.hero__image{
+    height: 100%;
+}
+.hero__image img{
+    height: 100%;
+}
+/* Hero */
+
+/* Hero */
+.arrows__container{
+    top: initial;
+    right: initial;
+    bottom: 0;
+    left: 0;
+    width: 28%;
+    height: 14%;
+} 
+.arrows{
+    width: 100%;
+    height: 100%;
+}
+.arrows:hover{
+    background:hsl(0, 0%, 27%);
+}
+.hero__description{
+    padding: 12.5%;
+}
+.hero__description > h2{
+    font-size: 3.4rem;
+    margin-bottom: 3%;
+}
+.hero__description > p{
+    font-size: 1.5rem;
+    margin-bottom: 10%;
+}
+.hero__description > a{
+    color: black;
+}
+.hero__description > a:hover{
+    color: hsl(0, 0%, 27%);
+}
+/* Hero */
+
+/* About */
+.about{
+    display: flex;
+}
+.about:first-child{
+    width: 29.19%;
+}
+.about__description{
+    width: 40.26%;
+    padding: 4%;
+}
+.about__image{
+    width: 30.55%;
+}
+.about__image > img{
+    height: 100%;
+    width: 100%;
+}
+.about__description > h3{
+    font-size: 1.6rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 2rem;
+}
+.about__description > p{
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 63%);
+}
+/* About */

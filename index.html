@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platzi Room</title>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="stylesheet" href="src/styles/tablet.css" media="screen and (min-width: 426px)">
+    <link rel="stylesheet" href="src/styles/desktop.css" media="screen and (min-width: 1024px)">
+
+</head>
+<body>
+    <header class="header">
+
+        <img id="burgerButton" src="src/images/icon-hamburger.svg"  alt="burger-icon">
+        <img src="src/images/logo.svg" alt="">
+        <nav class="nav" id="navbar">
+            <img id="closeNavbar" src="src/images/icon-close.svg" alt="icon-close">
+            <ul class="navbar">
+                <li><a href="">home</a></li>
+                <li><a href="">shop</a></li>
+                <li><a href="">about</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="hero__image-container">
+                <picture class="hero__image">
+                    <source media="(min-width:1024px)" srcset="./src/images/desktop-image-hero-1.jpg">
+                    <img id="imageHero" src="src/images/mobile-image-hero-1.jpg" alt="mobile-image-hero">
+                </picture>
+                <picture class="hero__image">
+                    <source media="(min-width:1024px)" srcset="./src/images/desktop-image-hero-2.jpg">
+                    <img id="imageHero" src="src/images/mobile-image-hero-2.jpg" alt="mobile-image-hero">
+                </picture>
+                <picture class="hero__image">
+                    <source media="(min-width:1024px)" srcset="./src/images/desktop-image-hero-3.jpg">
+                    <img id="imageHero" src="src/images/mobile-image-hero-3.jpg" alt="mobile-image-hero">
+                </picture>
+            </div>
+            <div class="hero__description">
+                <div class="arrows__container">
+                    <div class="arrows" id="arrowLeft">
+                        <img src="src/images/icon-angle-left.svg" alt="">
+                    </div>
+                    <div class="arrows" id="arrowRight">
+                        <img src="src/images/icon-angle-right.svg" alt="">
+                    </div>
+                </div>
+                <h2 id="hero-title">Discover innovative <br> ways to decorate</h2>
+                <p id="hero-info">we provide unmatched quality, comfort, and style for property owners across the country. Our experts combine form and function in bringing your vision to life. Create a room in your own style with our collection and make your property a reflection of you and what you love.</p>
+                <a href="">
+                    SHOP NOW 
+                    <img src="src/images/icon-arrow.svg" alt="">
+                </a>
+            </div>
+        </section>
+        <section class="about">
+            <figure class="about__image">
+                <img src="src/images/image-about-dark.jpg" alt="">
+            </figure>
+            <div class="about__description">
+                <h3>ABOUT OUR FURNITURE</h3>
+                <p>Our multifunctional collection blends design and function to suit your individual taste. Make each room unique, or pick a cohesive theme that best express your interests and what inspire you. Find the furniture pieces you need, from traditional to contemporary styles or anything in between. Product specialists are available to help you create your dream space</p>
+            </div>
+            <figure class="about__image">
+                <img src="src/images/image-about-light.jpg" alt="">
+            </figure>
+        </section>
+    </main>
+    <footer class="footer">
+        <div>
+            <h4>Pagina creada por Nerio Balza</h4>
+            <p>Reto Platzi-Room homepage <br> <b>#PlatziWebChallange</b></p>
+        </div>
+    </footer>
+    <script src="src/scripts/index.js"></script>
+</body>
+</html>
